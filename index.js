@@ -35,7 +35,7 @@ app.post("/upload", upload.single("file"), (req, res) => {
 const conn = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "12341234",
+  password: "1234",
   port: "3306",
   database: "shop",
 });
